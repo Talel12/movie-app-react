@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.carte{
+  width: 20vw;
+  height: 28vw;
+  border:1px solid black;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 10px;
+  font-size: 1.5vw;
 }
-
-.App-link {
-  color: #61dafb;
+.carte:hover{
+  height: 29vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carteImg{
+  width: 100%;
+  height: 70%;
+}
+.galerie{
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+.list-item{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.search{
+  width: 70vw;
+  height: 3vw;
+  border-radius: 1.5vw;
+  border: 1px gray solid;
+}
+li{
+  list-style : none;
+  display: inline-block;
+}
+.nav{
+  width: 100vw;
+  display : flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.plus{
+  font-size: 10vw;
+}
+.serRat{
+  
+}
+ul{
+}
+.serRat>ul{
+align-self: center;
+text-align: left;
+}
+.topRate{
+  position: relative;
+  right: -3vw;
+  top: -22.5vw;;
+  color: yellow;
+}
+.carte>p{
+  margin:0px;
 }
